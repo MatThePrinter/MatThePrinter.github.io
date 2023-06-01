@@ -1,0 +1,84 @@
+baseURL: https://mattheprinter.github.io # todo: change site url.
+title: Mat the Printer # todo: change site name.
+defaultContentLanguage: 'en'
+theme: eternity
+googleAnalytics: '' # todo: set your analytics id.
+
+params:
+  logo: MP22.svg
+  subtitle: Making art deeply material in the digial era # todo: change default subtitle for your website.
+  copyright: Mathieu Prost, all rights reserved # todo: set your copyright type.
+  author: Mathieu Prost # todo: set your full name.
+  dontShowSource: false # please, do not do this :)
+  portfolio:
+    columns:
+      desktop:
+        linocut: 3
+        digital_art: 3  
+        commissions: 3
+        default: 3
+      mobile:
+        default: 1
+        archive: 1
+        linocut: 1
+        digital_art: 1
+        commissions: 1
+        default : 1
+  socials:
+    # todo: change these links.
+    - icon: 'fab fa-facebook fa-lg'
+      url: 'https://facebook.com/mattheprinter'
+      landing: true
+    - icon: 'fab fa-instagram fa-lg'
+      url: 'https://instagram.com/Matt_the_printer'
+    - icon: 'fab fa-etsy fa-lg'
+      url: 'http://mattheprinter.etsy.com'
+    - icon: 'far fa-envelope fa-lg'
+      url: 'mailto:mprost.contact@gmail.com'
+      landing: true
+  homepage: "/work/" # homepage link, mostly same with menu.main[0]
+  specialPages: #The special pages allow to rewrite the title, i think
+    - digital_art 
+    - work
+    - all
+    - about
+  bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
+  plausible: '' # todo: set your plausible id.
+  disableRadius: true
+  moveIt: false  # Moves Title and Meta info down, only visible when scroll.
+  disableAlwaysResize: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  work: ":filename/"
+
+menu:                   #Allows to create a new menu item
+  main:
+    - name : Work
+      url : /work/
+      weight : 1
+    - name: Linocut
+      url: /tags/linocut/
+      weight: 2
+    - name: Digital Art
+      url: /tags/digital_art/
+      weight: 3
+    - name: Commissions
+      url: /tags/commissions/
+      weight: 5
+#    - name: All
+#      url: /tags/archive/ #Attention à mettre le / avant le root, sinon il interprète cela comme un sous dossier du dossier précédent (work)
+#      weight : 6
+    - name: About
+      url : /about/
+      weight: 7
+
+
