@@ -4,5 +4,3 @@ desc:
 - All illustrations are hand drawn, hand carved, hand printed with love in Burgundy (France)
 
 ---
-
-Ceci est un test
