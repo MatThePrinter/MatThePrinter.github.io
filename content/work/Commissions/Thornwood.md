@@ -11,7 +11,7 @@ multipleColumn: true
 title: Thornwood Parfums
 date: 2021-11-01
 tags:
-- home #homepage
+- work #homepage
 - archive # all posts
 - commissions
 ---

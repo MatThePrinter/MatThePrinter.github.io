@@ -9,8 +9,7 @@ date: 2023-02-27
 tags:
 
 - archive # all posts
-- digital_art
-- commissions
+- digital_art 
 ---
 
 ## The Faun (🇫🇷 Le Faune)

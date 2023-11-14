@@ -30,7 +30,9 @@ params:
       url: 'https://facebook.com/mattheprinter'
       landing: true
     - icon: 'fab fa-instagram fa-lg'
-      url: 'https://instagram.com/Matt_the_printer'
+      url: 'https://instagram.com/Mat_the_printer'
+    - icon: 'fab fa-tiktok fa-lg'
+      url: 'https://www.tiktok.com/@mattheprinter'
     - icon: 'fab fa-etsy fa-lg'
       url: 'http://mattheprinter.etsy.com'
     - icon: 'far fa-envelope fa-lg'

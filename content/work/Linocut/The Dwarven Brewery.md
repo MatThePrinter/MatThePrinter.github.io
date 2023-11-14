@@ -3,7 +3,6 @@ images:
 - /images/Brasserie5.jpg
 - /images/P_20211102_102001_vHDR_On.jpg
 - /images/Brasserie7.jpg
-- /images/IMG_20220926_115156-2.jpg
 multipleColumn: true
 
 title: Dwarven Brewery
